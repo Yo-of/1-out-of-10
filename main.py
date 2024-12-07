@@ -13,7 +13,7 @@ def is_similar_to_yes(user_input):
     return False
 
 number = random.randint(0,9)
-
+file = input("Enter a file that you want to play : ")
 guess = input("Silly game! Guess the number between 0 and 9 : ")
 guess = int(guess)
 
